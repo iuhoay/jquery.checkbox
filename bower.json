@@ -11,7 +11,7 @@
     "checkbox"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/iuhoay/jquery.checkbox",
   "ignore": [
     "**/.*",
     "node_modules",

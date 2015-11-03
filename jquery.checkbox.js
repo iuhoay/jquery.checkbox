@@ -1,5 +1,6 @@
 /**
 * jquery.checkbox.js v0.0.1
+* https://github.com/iuhoay/jquery.checkbox
 */
 (function($){
   $.fn.checkbox = function() {
