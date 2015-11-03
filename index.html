@@ -20,11 +20,10 @@
     </div>
 
     <script type="text/javascript">
-      var checkbox = $("#checkbox").checkbox();
+      var checkbox = $("#checkbox").checkbox(function(values) {
+        $("#checkbox_value").html(values.join(','));
+      });
       $("#checkbox_value").html(checkbox.values());
-      $(".children,#checkbox").on("change", function() {
-        $("#checkbox_value").html(checkbox.values().join(','));
-      })
     </script>
   </body>
 
